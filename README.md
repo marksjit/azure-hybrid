@@ -8,7 +8,7 @@
 
 ## Secure Connectivity:
 
-+ Implement Azure VPN Gateway to create a site-to-site VPN connection between your simulated on-premises environment (VNet) and your main Azure VNet. Verify the connection and ensure resources from one VNet can communicate with another, effectively simulating a hybrid environment. Implemented a peering connection between the two VNets to simulate a VNet-to-On-premise connection.
++ Implement Azure VPN Gateway to create a site-to-site VPN connection between your simulated on-premises environment (VNet) and your main Azure VNet. Verify the connection and ensure resources from one VNet can communicate with another, effectively simulating a hybrid environment. For this lab, I implemented a peering connection between the two VNets.
 
 ## Resource Deployment
 
@@ -20,5 +20,5 @@
 + Removed public IPs on VMs and implemented Azure Bastion Host on VNet02 for secure and seamless RDP and SSH access to virtual machines in the cloud network.
 
 ## Private Access to Azure PaaS Services:
-+ Deployed a MySQL Database & configure Azure DNS to have custom domain name for your it. Implemented Azure Load Balancer to distribute traffic across resources in the Database Subnet. And deployed internal load balancer on the database subnet.
++ Deployed a MySQL Database & configure Azure DNS to have custom domain name for your it. Implemented Azure Load Balancer to distribute traffic across resources in the Database Subnet. Deployed internal load balancer on the database subnet.
 + Used Azure Private Link to access MySQL Database over a private endpoint within the VNet, ensuring data doesn't traverse over the public internet.
