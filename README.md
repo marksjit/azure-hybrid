@@ -1,4 +1,4 @@
-# Azure-Net-Connect (Implement and manage virtual networking)
+# Azure-Networking (Implement and manage virtual networking)
 
 ## Azure Virtual Network Setup:
 + Provisioned an Azure Virtual Network (VNet) in chosen region. Created multiple subnets within this VNet to segregate resources effectively (WebApp Subnet, Database Subnet, Admin Subnet).
